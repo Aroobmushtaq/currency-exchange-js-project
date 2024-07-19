@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div class="heading"><h1>Currency Exchange</h1></div>
+    <div class="box-container">
+        <div class="box1">
+            <p> <b>SWAP</b></p>
+            <p> <b> <span style="color: rgb(134, 129, 129);">INFO</span></b></p>
+        </div>
+        <div class="box">
+            <input type="number"  id="one" value="1" placeholder="0">
+            <select id="currency-one">
+                <option value="INR">INR</option>
+                <option value="PKR">PKR</option>
+                <option value="USD" selected>USD</option>
+                <option value="ZAR">ZAR</option>
+                <option value="PHP">PHP</option>
+                <option value="EUR">EUR</option>
+                <option value="CAD">CAD</option>
+                <option value="BRL">BRL</option>
+                <option value="ARS">ARS</option>
+                <option value="SAR">SAR</option>
+                <option value="NZO">NZO</option>
+                <option value="PAB">PAB</option>
+                <option value="DAI">DAI</option>
+                <option value="ETH">ETH</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="AUD">AUD</option>
+                <option value="CHF">CHF</option>
+                <option value="RUB">RUB</option>
+                <option value="BGN">BGN</option>
+                <option value="CZK">CZK</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PLN">PLN</option>
+                <option value="RON">RON</option>
+                <option value="SGD">SGD</option>
+                <option value="TRY">TRY</option>
+                <option value="SEK">SEK</option>
+            </select>
+        </div>
+        <div class="box">
+            <input type="number"  id="two" placeholder="0">
+            <select id="currency-two">
+                <option value="INR">INR</option>
+                <option value="PKR" selected>PKR</option>
+                <option value="USD">USD</option>
+                <option value="ZAR">ZAR</option>
+                <option value="PHP">PHP</option>
+                <option value="EUR">EUR</option>
+                <option value="CAD">CAD</option>
+                <option value="BRL">BRL</option>
+                <option value="ARS">ARS</option>
+                <option value="SAR">SAR</option>
+                <option value="NZO">NZO</option>
+                <option value="PAB">PAB</option>
+                <option value="DAI">DAI</option>
+                <option value="ETH">ETH</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="AUD">AUD</option>
+                <option value="CHF">CHF</option>
+                <option value="RUB">RUB</option>
+                <option value="BGN">BGN</option>
+                <option value="CZK">CZK</option>
+                <option value="MYR">MYR</option>
+                <option value="NOK">NOK</option>
+                <option value="NZD">NZD</option>
+                <option value="PLN">PLN</option>
+                <option value="RON">RON</option>
+                <option value="SGD">SGD</option>
+                <option value="TRY">TRY</option>
+                <option value="SEK">SEK</option>
+            </select>
+        </div>
+        <div class="swap-container">
+            <div class="rate" id="rate"></div>
+                <button class="btn" id="swap">Swap Now</button>
+           
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
